@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <title>Login</title>
+</head>
+<body>
+  <header>
+    <div class="header_left">
+        <div class="logo">
+            <img src="../image/LOGO.png" alt="#">
+        </div>
+    </div>
+    <div class="header_right">
+        <a href="Home.html">Home</a>
+        <a href="Login.html">Login</a>
+        <a href="Etudiant.html"><i class="fa-regular fa-graduation-cap"></i>Etudiant</a>
+        <a href="enseignants.html">Enseignants</a>
+        <a href="themes.html">Thèmes Proposés</a>
+    </div>
+</header>
+  <div class="form">
+    <div class="form__box">
+      <div class="form__left">
+        <div class="form__padding">
+          <img src="../image/LOGO.png" alt="#">
+        </div>
+      </div>
+      <div class="form__right">
+        <form action="Login.html" method="get">
+          <div class="form__title">
+            <h1>Bien Venu</h1>
+          <h2>    departement informatique</h2>
+          </div>
+          <!-- <label for="email" class="form__email"></label> -->
+          <input type="text" placeholder="Username" name="login_email">
+          <!-- <label for="password" class="form__password"></label> -->
+          <input type="password" placeholder="*********" name="login_password">
+          
+          <div class="chois">
+            <input type="radio" name="chois_categorie" id="Etud_chois">
+            <label for="Etud_chois" class="chois">étudiants</label>
+            <input type="radio" name="chois_categorie" id="Ensig_chois">
+            <label for="Ensig_chois" class="chois">enseignants</label>
+          </div>
+          <input type="submit" class="form__submit-btn" value="Login">
+          <span>Forgot</span>
+          <a href="#" class="form__link">Username</a>
+          <a href="#">/</a>
+          <a href="#" class="form__link">Password ?</a>
+          <a href="#" class="form__link">Create your account</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

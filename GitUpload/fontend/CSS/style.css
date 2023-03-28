@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1, h2, h3{
+    text-align: center;
+}
+i{
+    color: #71df88;
+    position: relative;
+}
+i:hover {
+    color: #ff3f70;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #8300cd, #b800c4);
+    height: 70px;
+    width: 141vh;
+    margin: 50px auto;
+    /* padding: 45px 65px; */
+    border-radius: 40px;
+
+}
+.header_left img{
+    width: 70px;
+    height: 75px;
+    margin-right: 5px;
+}
+.header_right a{
+    margin-right: 15px;
+}
+
+.form {
+    width: 141vh;
+    height: 90vh;
+    margin: 50px auto;
+    padding: 45px 65px;
+    background: linear-gradient(to right, #8300cd, #b800c4);
+    border-radius: 40px;
+}
+.form__box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #fff;
+        border-radius: 40px;
+        overflow-y: scroll;
+}
+
+.form__box ::-webkit-scrollbar{
+    height: 24px;
+}
+.form__box ::-webkit-scrollbar-track{
+    background: #000;
+}
+.form__box ::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 100px;
+    border: 5px solid #000;
+}
+
+.form__left {
+        width: auto; 
+}
+.form__padding {
+    width: 210px;
+    height: 210px;
+    background: #f2f2f2;
+    border-radius: 50%;
+    margin: 0 auto;
+    line-height: 210px;
+    position: relative;
+}
+.form__image {
+    max-width: 100%;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form__right {
+    line-height: 26px;
+    width: auto;
+}
+.form__padding-right {
+    padding: 0 25px;
+}
+.form__title {
+    font-weight: bold;
+    font-size: 20px;    
+    margin-bottom: 30px;
+    text-align: center;
+}   
+.form__submit-btn {
+    background: #1fcc44;
+    cursor: pointer;
+}
+.form__submit-btn:hover {
+    background: #8300c4;
+}
+.form__email {
+    position: relative;
+}
+    input {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #f2f2f2;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+}
+    input:after {
+    position: absolute;
+    }
+    a {
+    color: #71df88;
+    position: relative;
+    }
+    a:hover {
+    color: #ff3f70;
+}
+
+.chois {
+    margin: -9px 0 15px 0;
+}
+
+label{
+    color: #71df88;
+    bottom: 5px;
+    top: 5px;
+    margin-bottom: 0;
+}
+input[type="radio"] {
+    width: 123px;
+    margin-bottom: -7px;
+    margin-top: 0px;
+    height: 13px;
+    left: 120px;
+    top: 11px;
+}
+
+.HomeList {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+} 
+
+.HomeList ul{
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* position: relative; */
+    width: 417px;
+    height: 196px;
+    font-size: 25px;
+}
+
+.HomeList li{
+    border-radius: 40px;
+    background: linear-gradient(to right, #8300cd, #b800c4);
+    margin: 15px 0;
+    text-align: center;
+    height: 35px;
+}
+
+.title {
+    font-size: 18px;
+    margin: 5px;
+    position: absolute;
+    top: 191px;
+    left: 385px;
+    padding: 30px;
+    color: #1fcc44;
+}
+
+.Tableux {
+    text-align: center;
+    /* background-color: red; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    padding: 10px;
+    /* overflow-y: scroll; */
+}
+caption {
+    /* background-color: red; */
+    width: auto;
+    height: auto;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #1fcc44;
+}
+
+.Tableux th{
+    background: linear-gradient(to right, #b800c4, #8300cd);
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.Tableux td{
+    background-color: #1fcc44;
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+}
+
